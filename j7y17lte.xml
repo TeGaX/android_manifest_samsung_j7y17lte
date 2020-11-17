@@ -7,19 +7,20 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="samsungexynos7870" />
+    <remote fetch="https://github.com/TeGaX" name="TeGaX" />
 	
     <!-- Device -->
-    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="TeGaX" revision="crdroid-7" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid-7" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
+    <project name="Tenshi_Kernel" path="kernel/samsung/exynos7870" remote="TeGaX" revision="main" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="common" />
+    <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="TeGaX" revision="11" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="11" />
 
     <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="lineage-17.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="lineage-18.0" />
 		
 </manifest>
