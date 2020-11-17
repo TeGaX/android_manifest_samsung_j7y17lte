@@ -4,7 +4,7 @@
 
 ```bash
 # Create dirs
-$ mkdir crdroid ; cd crdroid
+$ mkdir crdroid-7 ; cd crdroid-7
 
 # Init repo
 $ repo init --depth=1 -u https://github.com/crdroidandroid/android.git -b 11.0
