@@ -1,22 +1,22 @@
-# crDroid 7 - Android 11 for Exynos 7870
+# POSP - Android 10 for Exynos 7870
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir crdroid-7 ; cd crdroid-7
+$ mkdir posp ; cd posp
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/crdroidandroid/android.git -b 11.0
+$ repo init --depth=1 -u https://github.com/PotatoProject/manifest.git -b croquette-release
 
 # Clone my local repo
-$ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b crdroid-7 .repo/local_manifests
+$ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b potato .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ . build/envsetup.sh && lunch lineage_j7y17lte-userdebug && mka clean && mka bacon -j$(nproc --all)
+$ . build/envsetup.sh && lunch potato_j7y17lte-userdebug && mka clean && mka bacon -j$(nproc --all)
 ```
 
 ## Credits
