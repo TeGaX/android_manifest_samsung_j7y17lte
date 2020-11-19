@@ -1,4 +1,4 @@
-# Resurrection Remux 8 - Android 10 for Exynos 7870
+# Resurrection Remix 8 - Android 10 for Exynos 7870
 
 ### How to build ###
 
