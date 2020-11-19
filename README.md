@@ -1,4 +1,4 @@
-<div align=”center”>![AncientOS](https://raw.githubusercontent.com/Ancient-Lab/manifest/ten/ancient.png)</div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/Ancient-Lab/manifest/ten/ancient.png" /></div>
 # Ancient OS / Ancient OS Weeabooify - Android 10 for Exynos 7870
 
 ### How to build ###
@@ -19,7 +19,7 @@ $ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b An
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ . build/envsetup.sh && lunch lineage_j7y17lte-userdebug && mka clean && mka bacon -j$(nproc --all)
+$ . build/envsetup.sh && lunch ancient_j7y17lte-userdebug && mka clean && mka bacon -j$(nproc --all)
 ```
 
 ## Credits
