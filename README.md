@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="https://p.kindpng.com/picc/s/318-3183503_weeaboo-png-transparent-png.png" /></div>
+<div style="text-align:center"><img src="https://steamuserimages-a.akamaihd.net/ugc/933814189866869791/F2146B74050F849A038265F1DEC9A3B8A393149F/" /></div>
 
 # Ancient OS / Ancient OS Weeabooify - Android 10 for Exynos 7870
 
