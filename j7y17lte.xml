@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: j7y17lte
-    * rom: crDroid
+    * rom: ArrowOS
     -->
 
     <!-- Remote -->
@@ -10,11 +10,11 @@
     <remote fetch="https://github.com/TeGaX" name="TeGaX" />
 	
     <!-- Device -->
-    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="TeGaX" revision="crdroid-7" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="TeGaX" revision="arrow-11" />
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid-7" />
 
     <!-- Kernel -->
-    <project name="Tenshi_Kernel" path="kernel/samsung/exynos7870" remote="TeGaX" revision="main" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp-11" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="TeGaX" revision="11" />
