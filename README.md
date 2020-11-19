@@ -1,3 +1,5 @@
+<div style="text-align:center"><img src="https://www.xda-developers.com/files/2019/03/POSP-Potato-Open-Sauce-Project-810x298_c.png" /></div>
+
 # POSP - Android 10 for Exynos 7870
 
 ### How to build ###
