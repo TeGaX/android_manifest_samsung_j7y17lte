@@ -1,3 +1,5 @@
+<div style="text-align:center"><img src="https://img.xda-cdn.com/c0mIjR8lsiHM7l4KXowPzoLHRUE=/https%3A%2F%2Fimg.xda-cdn.com%2FnUBKZfMRYCotfvNioAnDwWlUuak%3D%2Fhttp%253A%252F%252Fi.imgur.com%252FBE3pE0l.png" /></div>
+
 # crDroid 7 - Android 11 for Exynos 7870
 
 ### How to build ###
