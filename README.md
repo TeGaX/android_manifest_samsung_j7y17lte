@@ -1,4 +1,4 @@
-![AncientOS](https://raw.githubusercontent.com/Ancient-Lab/manifest/ten/ancient.png)
+<div align=”center”>![AncientOS](https://raw.githubusercontent.com/Ancient-Lab/manifest/ten/ancient.png)</div>
 # Ancient OS / Ancient OS Weeabooify - Android 10 for Exynos 7870
 
 ### How to build ###
