@@ -16,7 +16,7 @@ $ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b RR
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ . build/envsetup.sh && lunch rr_j7y17lte-userdebug && mka clean && mka bacon -j$(nproc --all)
+$ . build/envsetup.sh && lunch rr_j7y17lte-userdebug && make clean && make bacon -j$(nproc --all)
 ```
 
 ## Credits
