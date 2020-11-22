@@ -22,11 +22,13 @@ $ . build/envsetup.sh && lunch lineage_j7y17lte-userdebug && mka clean && mka ba
 ```
 
 # For the gcc issue, here is how to fix:
+```bash
 sudo apt-get install gcc-aarch64-linux-gnu # GNU C compiler for the arm64 architecture
 sudo apt-get install g++-aarch64-linux-gnu # GNU C++ compiler
 mka bacon -j$(nproc --all) CROSS_COMPILE=aarch64-linux-gnu-
 
 And it will be fine :)
+```
 
 ## Credits
 2019 @Astrako
