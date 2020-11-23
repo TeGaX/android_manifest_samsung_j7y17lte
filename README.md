@@ -21,13 +21,18 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 $ . build/envsetup.sh && lunch lineage_j7y17lte-userdebug && mka clean && mka bacon -j$(nproc --all)
 ```
 
-# For the gcc issue, here is how to fix:
+# 1: For the gcc issue, here is how to fix:
 ```bash
-sudo apt-get install gcc-aarch64-linux-gnu # GNU C compiler for the arm64 architecture
-sudo apt-get install g++-aarch64-linux-gnu # GNU C++ compiler
-mka bacon -j$(nproc --all) CROSS_COMPILE=aarch64-linux-gnu-
+Go to the ROM folder
+rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9 prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 
 And it will be fine :)
+```
+
+# 2: Here is how to fix toolchain after clone success:
+```bash
+make cleaninstall
 ```
 
 ## Credits
