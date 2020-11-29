@@ -18,7 +18,7 @@ $ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b Bl
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ . build/envsetup.sh && lunch bliss_j7y17lte-userdebug && make clean && blissify j7y17lte
+$ . build/envsetup.sh && lunch bliss_j7y17lte-userdebug && make clean && blissify j7y17lte | tee log.txt
 # List of env
 -userdebug
 -user
