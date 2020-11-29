@@ -1,3 +1,5 @@
+<div style="text-align:center"><img src="https://camo.githubusercontent.com/b328e671bc58ad7a7c8bfe422112e9cdda0046f9170a0113dd5c56b9a3329a51/68747470733a2f2f692e696d6775722e636f6d2f30476e727761552e706e67" /></div>
+
 # BlissROMs 12.12 - Android 10 for Exynos 7870
 
 ### How to build ###
