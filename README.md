@@ -1,22 +1,28 @@
-# Resurrection Remix 8 - Android 10 for Exynos 7870
+# BlissROMs 12.12 - Android 10 for Exynos 7870
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir rr ; cd rr
+$ mkdir bliss ; cd bliss
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/ResurrectionRemix/platform_manifest.git -b Q
+$ repo init --depth=1 -u https://github.com/BlissRoms/platform_manifest.git -b q
 
 # Clone my local repo
-$ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b RR-8 .repo/local_manifests
+$ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b BlissROM .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ . build/envsetup.sh && lunch rr_j7y17lte-userdebug && make clean && make bacon -j$(nproc --all)
+$ . build/envsetup.sh && lunch bliss_j7y17lte-userdebug && make clean && blissify j7y17lte eng
+# List of env
+-userdebug
+-user
+-eng
+-neko
+-anime
 ```
 
 ## Credits
