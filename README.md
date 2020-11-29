@@ -23,8 +23,6 @@ $ . build/envsetup.sh && lunch bliss_j7y17lte-userdebug && make clean && blissif
 -userdebug
 -user
 -eng
--neko
--anime
 ```
 
 ## Credits
