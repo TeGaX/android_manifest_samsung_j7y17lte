@@ -18,7 +18,7 @@ $ git clone https://github.com/TeGaX/android_manifest_samsung_j7y17lte.git -b Sh
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j32
 
 # Build
-$ . build/envsetup.sh && lunch ssos_j7y17lte-userdebug && brunch j7y17lte
+$ . build/envsetup.sh && brunch j7y17lte userdebug
 ```
 
 # 1: For the gcc issue, here is how to fix:
