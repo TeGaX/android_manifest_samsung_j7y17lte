@@ -18,7 +18,7 @@
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="TeGaX" revision="common" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="common" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="TeGaX" revision="common" />
 
     <!-- Hardware -->   
     <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="aosp" />
