@@ -11,7 +11,7 @@
 	
     <!-- Device -->
     <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="TeGaX" revision="DerpFest" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="TeGaX" revision="DerpFest" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="TeGaX" revision="RR-8" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
